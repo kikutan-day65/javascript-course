@@ -17,3 +17,15 @@ console.log("enrolled:", student);
 document.getElementById("p1").innerHTML = "Hello " + firstname;
 document.getElementById("p2").innerHTML = "You are " + age + " years old";
 document.getElementById("p3").innerHTML = "Enrolled " + student;
+
+
+const PI = 3.14159;
+let radius;
+let circumference;
+
+radius = window.prompt("Enter teh radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * PI * radius;
+
+console.log("The circumference is:", circumference);
